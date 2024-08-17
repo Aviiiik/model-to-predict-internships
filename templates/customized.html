@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Customized Analysis | InternPred</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/static/assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="/static/assets/css/noscript.css" />
+	</noscript>
+</head>
+<style>
+	#skill_add,
+	#perk_add {
+		font-size: 0.4em;
+		box-shadow: inset 0 0 0 1px #ffffff;
+		padding: 0 2em;
+		height: 3em;
+		line-height: 3em;
+	}
+
+	.field_quarter .left {
+		float: left;
+	}
+
+	.field_quarter .right {
+		float: right;
+	}
+
+	#result_img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	#content_div {
+		text-align: justify;
+		/* line-height: 2em; */
+	}
+
+	#content_div li {
+		padding-top: 1.5em;
+	}
+</style>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<a href="{{url_for('home')}}" class="logo"><strong>Let's Explore</strong></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="{{url_for('home')}}">Home</a></li>
+				<li><a href="{{url_for('generalised')}}">Generalised Analysis</a></li>
+				<li><a href="{{url_for('customized')}}">Customized Analysis</a></li>
+			</ul>
+			<ul class="actions stacked">
+				<li><a href="{{url_for('home')}}#one" class="button primary fit">Get Started</a></li>
+				<li><a href="#contact" class="button fit">Feedback</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main" class="alt">
+
+			<!-- Banner -->
+			<section id="banner" class="style2">
+				<div class="inner">
+					<span class="image">
+						<img src="/static/images/pic07.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h1>Customized Analysis</h1>
+					</header>
+					<div class="content">
+						<p>Know everything about Internshala - According to what suits you!</p>
+					</div>
+				</div>
+			</section>
+			<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<div id="content_div">
+						<p>You want to know what stipend you deserve? This page provides a platform to analyse the
+							suitable internships based on your preferences.
+							The page asks for the following details:
+						<ul>
+							<li><b>Skills:</b> You can enter the skills you have as an applicant. There can be many
+								combinations of skills. Note that entering a lot of skills might lower your estimated
+								stipend as the algorithm gives estimates based on <b>all the skills entered</b>. You can
+								tweak with multiple options to understand the estimate.</li>
+							<li><b>Perks: </b> Different companies on Internshala offer different perks. Choose the
+								perks that you want to get from the company. Note that most of the companies offer for
+								"5 Days of the week" perk. Therefore, choosing "None" might actually lower your
+								estimated stipend. You can tweak with multiple options to understand the best estimates.
+							</li>
+							<li><b>Category:</b> This offers the list of categories offered on Internshala. <b>The
+									algorithm does not take into account this data to estimate your stipend.</b> It is
+								for an applicant to understand the different categories present on Internshala. Filling
+								the field is optional.</li>
+							<li><b>Location: </b>It is an important factor to look after while estimating an internship.
+								If you want to compare different locations, choose "Find the best one".</li>
+							<li><b>Duration: </b>Stipends are highly variable to duration of internship seeking. In
+								general trend, lower durations offer low stipends but the same is the case with higher
+								durations. Tweak with different values to understand the best estimate.</li>
+							<li><b>Important Note:</b> The estimated values are not actual values and they should be
+								used in a way to quantify the different options available on Internshala. These values
+								are a great way to compare the data on Internshala but should not be used as a benchmark
+								to decide on internships. Different internships with the same skills and locations might
+								have different stipends due to other factors not accounted for in the analysis.</li>
+							<li><b>Important Note:</b> These estimations are based on data available on Internshala. As
+								location and duration are the most important feature for estimating the stipend, you
+								might get the same estimated values for a set of duration and locations with different
+								skills. This is because each location has a minimum standard stipend that is offered for
+								any kind of internship irrespective of the skills you possess.</li>
+							<li>You are good to go to estimate stipends based on your preferences. However, if you want
+								to understand how estimations are made in order to get a more clear idea, you should
+								visit our <a
+									href="https://github.com/Aviiiik/machine-learning-model-to-find-best-company-for-internship.git" target="_blank">github
+									page</a>.</li>
+
+						</ul>
+						<b>Important Note on Data Sharing: </b>We save the data entered by you for internal analysis
+						only. In no way we spam your email or share your data with anyone.<br>
+						Please fill out the detials to predict the intership that suits you well!</p><br>
+					</div>
+					<form id="mainform" name="custoform" method="POST" action="/result">
+						<div class="fields">
+
+							<div class="field half">
+								<div class="field_quarter">
+									<span class="left"><label>Name:</label></span>
+								</div>
+								<div class="field_quarter">
+									<input type="text" id="name" name="name" required>
+								</div>
+							</div>
+
+							<div class="field half">
+								<div class="field_quarter">
+									<span class="left"><label>Email:</label></span>
+								</div>
+								<input type="email" id="email" name="email" required>
+							</div>
+
+							<div class="field half" name="skill_div">
+								<div class="field_quarter">
+									<span class="left"><label>Skills:</label></span>
+									<span class="right"><button type="button" id="skill_add" onclick="add_skill()">Add
+											More</button></span>
+								</div>
+								<select id="skill" name="skills" required>
+									{%for i in range(0,len_skill)%}
+									<option value="{{skill_value[i]}}">{{skill[i]}}</option>
+									{%endfor%}
+								</select>
+							</div>
+
+							<div class="field half" id="perk_div">
+								<div class="field_quarter">
+									<span class="left"><label>Perks:</label></span>
+									<span class="right"><button type="button" id="perk_add" onclick="add_perk()">Add
+											More</button></span>
+								</div>
+								<select id="perk" name="perks" required>
+									{%for i in range(0,len_perk)%}
+									<option value="{{perk_value[i]}}">{{perk[i]}}</option>
+									{%endfor%}
+								</select>
+							</div>
+
+							<div class="field half">
+								<div class="field_quarter">
+									<span class="left"><label>Category (Optional):</label></span>
+								</div>
+								<select id="category" name="categories">
+									{%for i in range(0,len_category)%}
+									<option value="{{category_value[i]}}">{{category[i]}}</option>
+									{%endfor%}
+								</select>
+							</div>
+
+							<div class="field half" id="location_div">
+								<div class="field_quarter">
+									<span class="left"><label>Location:</label></span>
+								</div>
+								<select id="location" name="locations" required>
+									{%for i in range(0,len_location)%}
+									<option value="{{location_value[i]}}">{{location[i]}}</option>
+									{%endfor%}
+								</select>
+							</div>
+
+
+
+							<div class="field half">
+								<div class="field_quarter">
+									<span class="left"><label>Duration:</label></span>
+								</div>
+								<select id="duration" name="duration" required>
+									<option value="">Select Duration</option>
+									<option value="0.25">1 Week</option>
+									<option value="0.5">2 Weeks</option>
+									<option value="0.75">3 Weeks</option>
+									<option value="1">1 Month</option>
+									<option value="1.5">6 Weeks</option>
+									<option value="2">2 Months</option>
+									<option value="3">3 Months</option>
+									<option value="4">4 Months</option>
+									<option value="5">5 Months</option>
+									<option value="6">6 Months</option>
+									<option value="12">1 Year</option>
+									<option value="24">2 Years</option>
+									<option value="36">3 Years</option>
+								</select>
+							</div>
+
+
+						</div>
+						<div>
+							<ul class="actions">
+								<li><input type="submit" value="submit" class="primary" /></li>
+								<li><button type="button"
+										onclick="window.location.href='{{url_for('customized')}}';">Reset</button></li>
+							</ul>
+						</div>
+
+					</form>
+
+					<div id="result_div">
+					</div>
+					<div id="intern_div">
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Contact -->
+		<section id="contact">
+			<div class="inner">
+				<section>
+					<p>For any feedback or queries feel free to reach us:<br></p>
+					<form onsubmit="sendResponse()">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="contact_name">
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="contact_email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="contact_message" rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Clear" /></li>
+						</ul>
+					</form>
+				</section>
+				<section class="split">
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-envelope"></span>
+							<h3>Email</h3>
+							<a href="mailto:internpred@gmail.com">internpred@gmail.com</a>
+						</div>
+					</section>
+				</section>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://github.com/Aviiiik/machine-learning-model-to-find-best-company-for-internship.git"
+							target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; InternPred</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="/static/assets/js/jquery.min.js"></script>
+	<script src="/static/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/static/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/static/assets/js/browser.min.js"></script>
+	<script src="/static/assets/js/breakpoints.min.js"></script>
+	<script src="/static/assets/js/util.js"></script>
+	<script src="/static/assets/js/main.js"></script>
+	<script>
+		function add_skill() {
+			skill_element = document.getElementsByName("skills")
+			skill_element[skill_element.length - 1].insertAdjacentHTML("afterend", '<select id="skill" name="skills" required>{%for i in range(0,len_skill)%}<option value="{{skill_value[i]}}">{{skill[i]}}</option>{%endfor%}</select>')
+		}
+		function add_location() {
+			location_element = document.getElementsByName("locations")
+			location_element[location_element.length - 1].insertAdjacentHTML('afterend', '<select id="location" name= "locations" required>{%for i in range(0,len_location)%}<option value="{{location_value[i]}}">{{location[i]}}</option>{%endfor%}</select>')
+		}
+		function add_perk() {
+			perk_element = document.getElementsByName("perks")
+			perk_element[perk_element.length - 1].insertAdjacentHTML('afterend', '<select id="perk" name="perks" required>{%for i in range(0,len_perk)%}<option value="{{perk_value[i]}}">{{perk[i]}}</option>{%endfor%}</select>')
+		}
+		function validate() {
+
+		}
+		function preload_on_post_return() {
+			var prefill = "{{prefill}}";
+			if (prefill === "True") {
+				const return_categories = {{ categories_return| safe}};
+		const return_skills = {{ skills_return| safe}};
+		const return_perks = {{ perks_return| safe}};
+		const return_locations = {{ locations_return| safe}};
+		const return_duration = {{ duration_return| safe}};
+		const return_name = {{ name_return| safe}};
+		const return_email = {{ email_return| safe}};
+
+		document.getElementById('name').value = return_name[0];
+		document.getElementById('email').value = return_email[0];
+
+		for (i = 0; i < return_skills.length - 1; i++) {
+			document.getElementById("skill_add").click();
+		}
+		skills_dropdowns = document.getElementsByName("skills");
+		for (i = 0; i < skills_dropdowns.length; i++) {
+			skills_dropdowns[i].value = return_skills[i];
+		}
+
+		for (i = 0; i < return_perks.length - 1; i++) {
+			document.getElementById("perk_add").click();
+		}
+		perks_dropdowns = document.getElementsByName("perks");
+		for (i = 0; i < perks_dropdowns.length; i++) {
+			perks_dropdowns[i].value = return_perks[i];
+		}
+
+		for (i = 0; i < return_locations.length - 1; i++) {
+			document.getElementById("location_add").click();
+		}
+		locations_dropdowns = document.getElementsByName("locations");
+		for (i = 0; i < locations_dropdowns.length; i++) {
+			locations_dropdowns[i].value = return_locations[i];
+		}
+
+		document.getElementById('duration').value = return_duration;
+		document.getElementById('category').value = return_categories[0];
+		document.getElementById('mainform').scrollIntoView()
+		set_predicted();
+			
+					}
+					
+			
+				}
+		function set_predicted() {
+			const isGraph = "{{graph|safe}}"
+			if (isGraph === "True") {
+				document.getElementById("result_div").innerHTML = "<img id='result_img' src='{{url_for('static',filename=predicted)}}'/>";
+				// document.getElementById("intern_div").innerHTML = "<img id='result_img' src='{{url_for('static',filename=comp)}}'/>";
+			} else {
+				document.getElementById("result_div").innerHTML = "<b>Predicted Stipend: {{predicted}}</b>";
+				document.getElementById("intern_div").innerHTML = "<b>Best Company: {{comp}}</b>";
+			}
+
+		}
+		window.onload = preload_on_post_return()
+	</script>
+	<script>
+		function sendResponse() {
+			var name = encodeURI(document.getElementById('contact_name').value);
+			var email = encodeURI(document.getElementById("contact_email").value);
+			var msg = encodeURI(document.getElementById("contact_message").value);
+			var final_href = "mailto:internpred@gmail.com?subject=Feedback&body=Name:%20".concat(name).concat("%0AEmail:%20").concat(email).concat("%0AMessage:%0A").concat(msg);
+			console.log(final_href)
+			window.open(final_href, '_blank');
+		}
+	</script>
+
+</body>
+
+</html>

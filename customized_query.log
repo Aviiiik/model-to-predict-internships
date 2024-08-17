@@ -1,0 +1,219 @@
+Time,Name,Email,Location,Skills,Perks,Duration,Category
+2023-04-08 22:55:15.696982,Mayank Raj,mraj602@gmail.com,Find the best one,"['skill_CSS', 'skill_C#']",['perk_5 days a week'],1.5,category_ASP.NET WebAPI Development
+2023-04-08 22:57:44.134415,Mayank Raj,mraj602@gmail.com,Find the best one,"['skill_C#', 'skill_C#']",['perk_5 days a week'],1.5,category_ASP.NET WebAPI Development
+2023-04-08 22:59:04.991483,Mayank Raj,mraj602@gmail.com,Find the best one,['skill_Android'],['perk_5 days a week'],3.0,category_Account Management
+2023-04-08 22:59:35.249359,Mayank Raj,mraj602@gmail.com,Find the best one,"['skill_Android', 'skill_Android']",['perk_5 days a week'],3.0,category_Account Management
+2023-04-10 10:05:57.674812,suchismitha,yelisetty.suchismitha@science.christuniversity.in,location_Hyderabad,"['skill_Blockchain', 'skill_Telugu Proficiency (Written)', 'skill_Telugu Proficiency (Spoken)']","['perk_5 days a week', 'perk_Certificate']",3.0,category_AI Analysis
+2023-04-10 10:06:11.138548,suchismitha,yelisetty.suchismitha@science.christuniversity.in,location_Gurgaon,"['skill_Blockchain', 'skill_Telugu Proficiency (Written)', 'skill_Telugu Proficiency (Spoken)']","['perk_5 days a week', 'perk_Certificate']",3.0,category_AI Analysis
+2023-04-10 10:06:59.198532,suchismitha,yelisetty.suchismitha@science.christuniversity.in,location_Gurgaon,"['skill_Tamil Proficiency (Spoken)', 'skill_Telugu Proficiency (Written)', 'skill_Telugu Proficiency (Spoken)']","['perk_5 days a week', 'perk_Certificate']",3.0,category_AI Analysis
+2023-04-10 10:07:10.705709,suchismitha,yelisetty.suchismitha@science.christuniversity.in,location_Gandhinagar,"['skill_Tamil Proficiency (Spoken)', 'skill_Telugu Proficiency (Written)', 'skill_Telugu Proficiency (Spoken)']","['perk_5 days a week', 'perk_Certificate']",3.0,category_AI Analysis
+2023-04-10 10:07:42.643453,suchismitha,yelisetty.suchismitha@science.christuniversity.in,Find the best one,"['skill_Tamil Proficiency (Spoken)', 'skill_Telugu Proficiency (Written)', 'skill_Telugu Proficiency (Spoken)']","['perk_5 days a week', 'perk_Certificate']",3.0,category_AI Analysis
+2023-04-10 10:09:03.334511,Mayank Raj,mraj602@gmail.com,location_Agra,['skill_Chemistry'],['None'],0.25,category_ASP.NET Development
+2023-04-10 10:09:13.798742,Mayank Raj,mraj602@gmail.com,location_Agra,['skill_Chemistry'],['None'],3.0,category_ASP.NET Development
+2023-04-10 10:09:20.471937,Mayank Raj,mraj602@gmail.com,location_Agra,['skill_Chemistry'],['perk_5 days a week'],3.0,category_ASP.NET Development
+2023-04-10 10:09:29.075759,Mayank Raj,mraj602@gmail.com,location_Agra,['skill_Chemistry'],['perk_5 days a week'],3.0,category_App Development
+2023-04-10 10:09:35.843639,Mayank Raj,mraj602@gmail.com,location_Agra,['skill_Chemistry'],['perk_5 days a week'],3.0,category_Cartoon Art
+2023-04-12 12:39:52.077805,Mayank Raj,mraj602@gmail.com,location_Bhubaneswar,['skill_ASP.NET'],['perk_Certificate'],2.0,category_AI Startup Founder
+2023-04-12 12:47:18.240945,P A Neeraja Nair,neeraja.nair@science.christuniversity.in,location_Cochin,"['skill_Business Analysis', 'skill_Teaching']",['perk_Certificate'],0.75,category_Business Operations
+2023-04-12 12:47:28.074203,P A Neeraja Nair,neeraja.nair@science.christuniversity.in,Find the best one,"['skill_Business Analysis', 'skill_Teaching']",['perk_Certificate'],0.75,category_Business Operations
+2023-04-12 12:48:29.576609,P A Neeraja Nair,neeraja.nair@science.christuniversity.in,Find the best one,"['skill_Data Science', 'skill_Teaching']",['perk_Certificate'],0.75,category_Business Operations
+2023-04-12 12:48:40.720441,P A Neeraja Nair,neeraja.nair@science.christuniversity.in,Find the best one,"['skill_Data Science', 'skill_Teaching']",['perk_5 days a week'],0.75,category_Business Operations
+2023-04-14 15:44:40.299037,Mayank Raj,mraj602@gmail.com,location_Bhiwandi,['skill_Python'],['None'],3.0,
+2023-04-14 15:44:44.898018,Mayank Raj,mraj602@gmail.com,location_Badlapur,['skill_Python'],['None'],3.0,
+2023-04-14 15:44:51.941684,Mayank Raj,mraj602@gmail.com,location_Ambernath,['skill_Python'],['None'],3.0,
+2023-04-14 15:44:57.467234,Mayank Raj,mraj602@gmail.com,location_Vasai-Virar,['skill_Python'],['None'],3.0,
+2023-04-14 15:45:00.492275,Mayank Raj,mraj602@gmail.com,location_Vasai,['skill_Python'],['None'],3.0,
+2023-04-14 15:45:08.422370,Mayank Raj,mraj602@gmail.com,location_Ulhasnagar,['skill_Python'],['None'],3.0,
+2023-04-14 15:45:12.439439,Mayank Raj,mraj602@gmail.com,location_Bangalore,['skill_Python'],['None'],3.0,
+2023-04-14 15:45:27.754574,Mayank Raj,mraj602@gmail.com,location_Bangalore,['skill_Event Management'],['None'],3.0,
+2023-04-14 15:45:33.687028,Mayank Raj,mraj602@gmail.com,location_Ulhasnagar,['skill_Event Management'],['None'],3.0,
+2023-04-14 15:45:39.553678,Mayank Raj,mraj602@gmail.com,location_Ambernath,['skill_Event Management'],['None'],3.0,
+2023-04-14 15:46:45.093365,Mayank Raj,mraj602@gmail.com,location_Ambernath,['skill_PCB Soldering'],['None'],3.0,
+2023-04-14 15:46:49.488723,Mayank Raj,mraj602@gmail.com,location_Bangalore,['skill_PCB Soldering'],['None'],3.0,
+2023-04-14 15:46:55.821949,Mayank Raj,mraj602@gmail.com,location_Vasai,['skill_PCB Soldering'],['None'],3.0,
+2023-04-14 15:47:00.661440,Mayank Raj,mraj602@gmail.com,location_Bhiwandi,['skill_PCB Soldering'],['None'],3.0,
+2023-04-14 15:48:00.102425,Mayank Raj,mraj602@gmail.com,location_Bhiwandi,"['skill_CSS', 'skill_HTML', 'skill_PHP', 'skill_WordPress']",['perk_5 days a week'],3.0,
+2023-04-14 15:48:07.727991,Mayank Raj,mraj602@gmail.com,location_Ahmedabad,"['skill_CSS', 'skill_HTML', 'skill_PHP', 'skill_WordPress']",['perk_5 days a week'],3.0,
+2023-04-14 15:48:11.400081,Mayank Raj,mraj602@gmail.com,location_Ambernath,"['skill_CSS', 'skill_HTML', 'skill_PHP', 'skill_WordPress']",['perk_5 days a week'],3.0,
+2023-04-14 15:48:15.627954,Mayank Raj,mraj602@gmail.com,location_Amritsar,"['skill_CSS', 'skill_HTML', 'skill_PHP', 'skill_WordPress']",['perk_5 days a week'],3.0,
+2023-04-14 15:48:19.857665,Mayank Raj,mraj602@gmail.com,location_Bangalore,"['skill_CSS', 'skill_HTML', 'skill_PHP', 'skill_WordPress']",['perk_5 days a week'],3.0,
+2023-04-14 21:39:49.260598,Mayank Raj,mraj602@gmail.com,location_Chennai,['skill_Adobe After Effects'],['perk_Certificate'],12.0,
+2023-04-14 21:41:15.479692,Mayank Raj,mraj602@gmail.com,location_Dehradun,['skill_Adobe Flash'],['None'],5.0,category_AI/Robotics Training
+2023-04-14 21:41:22.682436,Mayank Raj,mraj602@gmail.com,Find the best one,['skill_Adobe Flash'],['None'],5.0,category_AI/Robotics Training
+2023-04-18 14:09:34.400956,Mayank Raj,mraj602@gmail.com,location_Bhopal,['skill_German Proficiency (Spoken)'],['perk_5 days a week'],3.0,
+2023-04-18 14:09:42.786912,Mayank Raj,mraj602@gmail.com,Find the best one,['skill_German Proficiency (Spoken)'],['perk_5 days a week'],3.0,
+2023-04-18 14:17:10.256769,Mayank Raj,mraj602@gmail.com,Find the best one,"['skill_Acting technique', 'skill_Cinema 4D']","['perk_5 days a week', 'perk_Certificate']",3.0,
+2023-04-18 14:17:27.421111,Mayank Raj,mraj602@gmail.com,location_Delhi,"['skill_Acting technique', 'skill_Cinema 4D']","['perk_5 days a week', 'perk_Certificate']",3.0,
+2023-04-18 14:48:45.869383,Mayank Raj,mraj602@gmail.com,location_Delhi,"['skill_Blockchain', 'skill_Cloud Computing']","['perk_5 days a week', 'perk_Certificate']",1.5,
+2023-04-18 14:48:57.957441,Mayank Raj,mraj602@gmail.com,Find the best one,"['skill_Blockchain', 'skill_Cloud Computing']","['perk_5 days a week', 'perk_Certificate']",1.5,
+2023-04-18 14:49:32.884545,Mayank Raj,mraj602@gmail.com,Find the best one,"['skill_Blockchain', 'skill_Cloud Computing']","['None', 'None']",1.5,
+2023-04-25 14:26:25.718326,Mayank Raj,mraj602@gmail.com,location_Delhi,"['skill_Blockchain', 'skill_Machine Learning']","['perk_5 days a week', 'perk_Certificate']",3.0,category_Cloud Computing Development
+2023-04-25 14:26:44.388564,Mayank Raj,mraj602@gmail.com,Find the best one,"['skill_Blockchain', 'skill_Machine Learning']","['perk_5 days a week', 'perk_Certificate']",3.0,category_Cloud Computing Development
+2023-04-26 01:43:11.857350,ABCD,ABC@XYZ,location_Bangalore,"['skill_C++ Programming', 'skill_C#']",['perk_5 days a week'],3.0,category_C/C++  Development
+2023-04-26 01:43:19.602215,ABCD,ABC@XYZ,location_Amritsar,"['skill_C++ Programming', 'skill_C#']",['perk_5 days a week'],3.0,category_C/C++  Development
+2023-04-26 01:43:30.654944,ABCD,ABC@XYZ,location_Mumbai,"['skill_C++ Programming', 'skill_C#']",['perk_5 days a week'],3.0,category_C/C++  Development
+2023-04-26 01:43:36.897799,ABCD,ABC@XYZ,location_Mehsana,"['skill_C++ Programming', 'skill_C#']",['perk_5 days a week'],3.0,category_C/C++  Development
+2023-04-26 01:43:42.834150,ABCD,ABC@XYZ,location_Noida,"['skill_C++ Programming', 'skill_C#']",['perk_5 days a week'],3.0,category_C/C++  Development
+2023-04-26 01:43:51.695769,ABCD,ABC@XYZ,Find the best one,"['skill_C++ Programming', 'skill_C#']",['perk_5 days a week'],3.0,category_C/C++  Development
+2023-04-26 01:44:12.400090,ABCD,ABC@XYZ,location_Kolkata,"['skill_C++ Programming', 'skill_C#']",['perk_5 days a week'],3.0,category_C/C++  Development
+2023-04-26 01:47:52.454400,ABCD,ABC@XYZ,Find the best one,"['skill_C++ Programming', 'skill_C#']",['perk_5 days a week'],3.0,category_C/C++  Development
+2023-04-26 02:10:50.209007,xyz,xyz@gmail.com,location_Bangalore,['skill_Amazon Web Services (AWS)'],['perk_5 days a week'],6.0,
+2023-04-26 02:11:08.942707,xyz,xyz@gmail.com,location_Delhi,['skill_Amazon Web Services (AWS)'],['perk_5 days a week'],6.0,
+2023-04-26 02:11:16.940128,xyz,xyz@gmail.com,location_Gurgaon,['skill_Amazon Web Services (AWS)'],['perk_5 days a week'],6.0,
+2023-04-26 02:11:25.495414,xyz,xyz@gmail.com,location_Ghaziabad,['skill_Amazon Web Services (AWS)'],['perk_5 days a week'],6.0,
+2023-04-26 02:11:31.242992,xyz,xyz@gmail.com,location_Noida,['skill_Amazon Web Services (AWS)'],['perk_5 days a week'],6.0,
+2023-04-26 02:11:41.345396,xyz,xyz@gmail.com,location_Gurgaon,['skill_Amazon Web Services (AWS)'],['perk_5 days a week'],6.0,
+2024-01-26 23:48:56.582713,Mayank ,mraj602@gmail.com,location_Bangalore,"['skill_Data Analytics', 'skill_Data Science']",['None'],3.0,
+2024-01-26 23:49:06.924492,Mayank ,mraj602@gmail.com,location_Bangalore,"['skill_Data Analytics', 'skill_Copywriting']",['None'],3.0,
+2024-01-26 23:49:32.527478,AVIK MALLICK,avikmallick14@gmail.com,Find the best one,['skill_Adobe Flash'],['perk_Certificate'],2.0,
+2024-02-08 10:31:36.698668,AVIK MALLICK,avikmallick14@gmail.com,location_Chennai,['skill_Adobe Premiere Pro'],['perk_5 days a week'],12.0,category_AI Analysis
+2024-03-14 12:27:21.249812,avik,avikmallick@gmail.com,location_Delhi,['skill_Adobe Illustrator'],['perk_5 days a week'],1.5,category_AI/ML Development
+2024-03-24 19:43:22.098855,avik,avikmallick@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_Flexible work hours'],6.0,category_Data_Analysis/Data_Science
+2024-03-24 19:48:38.750883,avik,avikmallick@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],6.0,category_Data_Analysis/Data_Science
+2024-04-17 14:16:54.144811,AVIK,avikmallick14@gmail.com,location_Bangalore,['skill_Accounting'],['perk_5 days a week'],6.0,category_Account Management
+2024-04-18 23:49:03.454367,avik,avikmallick@gmail.com,location_Bhopal,"['skill_Adobe Photoshop Lightroom CC', 'skill_Adobe XD']",['perk_5 days a week'],4.0,category_AI/ML Development
+2024-04-19 00:03:22.621608,avik,avikmallick@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 00:03:23.006266,avik,avikmallick@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 00:24:17.915846,avik,avikmallick@gmail.com,Find the best one,['skill_Cloud Firestore'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 00:25:59.875900,avik,avikmallick@gmail.com,Find the best one,['skill_Cloud Firestore'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 00:28:43.782289,avik,pc@gmail.com,location_Bangalore,['skill_Acting Audition'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:28:44.216163,avik,pc@gmail.com,location_Bangalore,['skill_Acting Audition'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:30:49.934641,first group,pc@gmail.com,location_Bangalore,['skill_Android'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:30:50.396830,first group,pc@gmail.com,location_Bangalore,['skill_Android'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:32:04.822704,first group,pc@gmail.com,location_Bangalore,['skill_Android'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:32:04.985460,first group,pc@gmail.com,location_Bangalore,['skill_Android'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:32:05.064541,first group,pc@gmail.com,location_Bangalore,['skill_Android'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:26.069906,first group,pc@gmail.com,location_Bangalore,['skill_Android'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:26.230449,first group,pc@gmail.com,location_Bangalore,['skill_Android'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:26.320014,first group,pc@gmail.com,location_Bangalore,['skill_Android'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:38.899968,first group,pc@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:38.979483,first group,pc@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:39.035587,first group,pc@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:45.415940,first group,pc@gmail.com,location_Bhopal,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:45.501854,first group,pc@gmail.com,location_Bhopal,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:45.586219,first group,pc@gmail.com,location_Bhopal,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:50.125235,first group,pc@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:50.184819,first group,pc@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:50.251009,first group,pc@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],3.0,category_AI Analysis
+2024-04-19 00:33:59.767805,first group,pc@gmail.com,location_Bangalore,['skill_Circuit Design'],['perk_5 days a week'],3.0,category_Accountant
+2024-04-19 00:33:59.817638,first group,pc@gmail.com,location_Bangalore,['skill_Circuit Design'],['perk_5 days a week'],3.0,category_Accountant
+2024-04-19 00:33:59.887653,first group,pc@gmail.com,location_Bangalore,['skill_Circuit Design'],['perk_5 days a week'],3.0,category_Accountant
+2024-04-19 00:34:16.183881,first group,pc@gmail.com,Find the best one,['skill_Circuit Design'],['perk_5 days a week'],3.0,category_Accountant
+2024-04-19 02:22:01.552213,avik,avikmallick@gmail.com,Find the best one,['skill_Adobe Dreamweaver'],['perk_5 days a week'],1.5,category_Acting
+2024-04-19 02:22:13.747735,avik,avikmallick@gmail.com,Find the best one,['skill_Adobe Dreamweaver'],['perk_5 days a week'],24.0,category_Acting
+2024-04-19 02:22:22.906440,avik,avikmallick@gmail.com,Find the best one,['skill_Adobe Dreamweaver'],['perk_Certificate'],24.0,category_Acting
+2024-04-19 02:23:09.907441,avik,avikmallick@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],24.0,
+2024-04-19 02:23:18.333765,avik,avikmallick@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,
+2024-04-19 02:23:39.200178,avik,avikmallick@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Business Development Management
+2024-04-19 02:23:51.748897,avik,avikmallick@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Brand Management
+2024-04-19 02:24:39.752978,avik,avikmallick@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Facebook Advertising
+2024-04-19 02:26:50.159411,avik,avikmallick@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Excel Operations
+2024-04-19 02:26:59.399670,avik,avikmallick@gmail.com,Find the best one,['skill_Adobe Dreamweaver'],['perk_5 days a week'],2.0,category_Excel Operations
+2024-04-19 02:27:30.141974,avik,avikmallick@gmail.com,Find the best one,['skill_Adobe Dreamweaver'],['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:27:54.193723,avik,avikmallick@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:30:29.238923,avik,avikmallick@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:30:29.305087,avik,avikmallick@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:30:29.546788,avik,avikmallick@gmail.com,location_Bangalore,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:30:43.022041,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:30:43.085418,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:30:43.139072,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:31:10.966701,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:31:11.038938,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:31:11.107425,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:31:19.973824,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:31:20.031138,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:31:20.117301,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:31:28.688801,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:31:28.771846,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:31:28.835897,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:31:49.253098,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:31:49.319314,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:31:49.373367,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:32:02.732339,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Actuarial
+2024-04-19 02:32:02.818973,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Actuarial
+2024-04-19 02:32:02.875902,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Actuarial
+2024-04-19 02:32:18.170304,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Business Analysis
+2024-04-19 02:32:18.256684,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Business Analysis
+2024-04-19 02:32:18.343030,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Business Analysis
+2024-04-19 02:32:38.953283,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:32:39.023279,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:32:39.104017,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:32:46.100763,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:32:46.157775,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:32:46.224000,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:33:17.423552,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:33:17.481682,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:33:17.544179,avik,avikmallick@gmail.com,location_Hyderabad,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:33:29.688582,avik,avikmallick@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:33:56.999060,avik,avikmallick@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science']",['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:34:10.300553,avik,avikmallick@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science']",['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:34:29.756406,avik,avikmallick@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science']",['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 02:35:00.904813,avik,avikmallick@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science', 'skill_Deep Learning']",['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 02:35:19.540743,avik,avikmallick@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science', 'skill_Deep Learning']",['perk_5 days a week'],2.0,category_ECommerce Management
+2024-04-19 02:36:20.505606,avik,avikmallick@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science', 'skill_Deep Learning']",['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:36:41.120827,avik,avikmallick@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science', 'skill_Deep Learning', 'skill_Amazon Web Services (AWS)']",['perk_5 days a week'],2.0,category_AI Analysis
+2024-04-19 02:37:33.855704,avik,avikmallick@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science', 'skill_Deep Learning', 'skill_C Programming']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 02:37:51.485756,avik,avikmallick@gmail.com,Find the best one,"['skill_AngularJS', 'skill_Data Science', 'skill_Deep Learning', 'skill_C Programming']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 02:38:07.617277,avik,avikmallick@gmail.com,Find the best one,"['skill_AngularJS', 'skill_Engineering Drawing', 'skill_Bootstrap', 'skill_C Programming']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 02:38:43.778143,avik,avikmallick@gmail.com,location_Bhubaneswar,"['skill_AngularJS', 'skill_Engineering Drawing', 'skill_Bootstrap', 'skill_C Programming']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 02:38:43.842360,avik,avikmallick@gmail.com,location_Bhubaneswar,"['skill_AngularJS', 'skill_Engineering Drawing', 'skill_Bootstrap', 'skill_C Programming']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 02:38:43.922015,avik,avikmallick@gmail.com,location_Bhubaneswar,"['skill_AngularJS', 'skill_Engineering Drawing', 'skill_Bootstrap', 'skill_C Programming']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 02:40:53.678037,avik,avikmallick@gmail.com,Find the best one,"['skill_AngularJS', 'skill_Engineering Drawing', 'skill_Bootstrap', 'skill_C Programming']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 09:29:09.835998,avik,avikmallick14@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Data_Analysis/Data_Science
+2024-04-19 09:29:30.677295,avik,avikmallick14@gmail.com,Find the best one,['skill_Data Analytics'],['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 09:30:07.629156,avik,avikmallick14@gmail.com,Find the best one,"['skill_Data Analytics', 'skill_Data Science', 'skill_Deep Learning']",['perk_5 days a week'],2.0,category_Cybersecurity
+2024-04-19 09:31:45.321060,avik,avikmallick14@gmail.com,Find the best one,"['skill_AngularJS', 'skill_C Programming', 'skill_Software Testing']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 09:31:57.345913,avik,avikmallick14@gmail.com,Find the best one,"['skill_Amazon Web Server (AWS)', 'skill_C Programming', 'skill_Software Testing']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 09:32:20.315335,avik,avikmallick14@gmail.com,location_Bangalore,"['skill_Amazon Web Server (AWS)', 'skill_C Programming', 'skill_Software Testing']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 09:32:20.397431,avik,avikmallick14@gmail.com,location_Bangalore,"['skill_Amazon Web Server (AWS)', 'skill_C Programming', 'skill_Software Testing']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 09:32:20.660963,avik,avikmallick14@gmail.com,location_Bangalore,"['skill_Amazon Web Server (AWS)', 'skill_C Programming', 'skill_Software Testing']",['perk_5 days a week'],2.0,category_Software Development Engineering
+2024-04-19 09:47:12.538471,AVIK MALLICK,avikmallick14@gmail.com,Find the best one,['skill_Adobe Photoshop'],['perk_Letter of recommendation'],5.0,"category_AWS, Scala"
+2024-04-19 09:47:28.825521,AVIK MALLICK,avikmallick14@gmail.com,location_Hyderabad,['skill_Adobe Photoshop'],['perk_Letter of recommendation'],5.0,"category_AWS, Scala"
+2024-04-19 09:47:28.893381,AVIK MALLICK,avikmallick14@gmail.com,location_Hyderabad,['skill_Adobe Photoshop'],['perk_Letter of recommendation'],5.0,"category_AWS, Scala"
+2024-04-19 09:47:28.977356,AVIK MALLICK,avikmallick14@gmail.com,location_Hyderabad,['skill_Adobe Photoshop'],['perk_Letter of recommendation'],5.0,"category_AWS, Scala"
+2024-04-19 12:11:31.553491,keerthana,avikmallick14@gmail.com,Find the best one,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:11:48.566486,keerthana,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:11:48.624811,keerthana,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:11:48.806424,keerthana,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:13.083717,keerthana,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:13.131803,keerthana,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:13.186370,keerthana,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:29.233204,keerthana,avikmallick14@gmail.com,location_Chandigarh,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:29.269332,keerthana,avikmallick14@gmail.com,location_Chandigarh,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:29.317743,keerthana,avikmallick14@gmail.com,location_Chandigarh,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:43.683664,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:43.717109,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:12:43.775737,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_DevOps']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:13:07.364613,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:13:07.400648,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:13:07.467485,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS']",['perk_5 days a week'],6.0,category_Software Development Engineering
+2024-04-19 12:14:20.118725,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS', 'skill_Quality Assurance/Quality Control (QA/QC)']",['perk_5 days a week'],6.0,category_Solutions Management
+2024-04-19 12:14:20.167892,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS', 'skill_Quality Assurance/Quality Control (QA/QC)']",['perk_5 days a week'],6.0,category_Solutions Management
+2024-04-19 12:14:20.236733,keerthana,avikmallick14@gmail.com,location_Hyderabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS', 'skill_Quality Assurance/Quality Control (QA/QC)']",['perk_5 days a week'],6.0,category_Solutions Management
+2024-04-19 12:14:30.217771,keerthana,avikmallick14@gmail.com,location_Ghaziabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS', 'skill_Quality Assurance/Quality Control (QA/QC)']",['perk_5 days a week'],6.0,category_Solutions Management
+2024-04-19 12:14:30.288517,keerthana,avikmallick14@gmail.com,location_Ghaziabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS', 'skill_Quality Assurance/Quality Control (QA/QC)']",['perk_5 days a week'],6.0,category_Solutions Management
+2024-04-19 12:14:30.334230,keerthana,avikmallick14@gmail.com,location_Ghaziabad,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS', 'skill_Quality Assurance/Quality Control (QA/QC)']",['perk_5 days a week'],6.0,category_Solutions Management
+2024-04-19 12:14:46.724866,keerthana,avikmallick14@gmail.com,Find the best one,"['skill_C Programming', 'skill_AngularJS', 'skill_ReactJS', 'skill_Quality Assurance/Quality Control (QA/QC)']",['perk_5 days a week'],6.0,category_Solutions Management
+2024-04-19 13:58:57.761626,avik ,avikmallick14@gmail.com,Find the best one,['skill_C Programming'],['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 13:58:58.823552,avik ,avikmallick14@gmail.com,Find the best one,['skill_C Programming'],['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 13:59:20.014417,avik ,avikmallick14@gmail.com,Find the best one,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 13:59:41.442751,avik ,avikmallick14@gmail.com,Find the best one,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 13:59:52.017090,avik ,avikmallick14@gmail.com,Find the best one,"['skill_C Programming', 'skill_Amazon Web Services (AWS)']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 14:00:13.118725,avik ,avikmallick14@gmail.com,Find the best one,"['skill_C Programming', 'skill_ReactJS']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 14:00:32.347875,avik ,avikmallick14@gmail.com,Find the best one,"['skill_C Programming', 'skill_ReactJS']","['perk_5 days a week', 'perk_Letter of recommendation']",3.0,category_Software Development Engineering
+2024-04-19 14:00:52.982007,avik ,avikmallick14@gmail.com,location_Gurgaon,"['skill_C Programming', 'skill_ReactJS']","['perk_5 days a week', 'perk_Letter of recommendation']",3.0,category_Software Development Engineering
+2024-04-19 14:00:53.081678,avik ,avikmallick14@gmail.com,location_Gurgaon,"['skill_C Programming', 'skill_ReactJS']","['perk_5 days a week', 'perk_Letter of recommendation']",3.0,category_Software Development Engineering
+2024-04-19 14:00:53.339550,avik ,avikmallick14@gmail.com,location_Gurgaon,"['skill_C Programming', 'skill_ReactJS']","['perk_5 days a week', 'perk_Letter of recommendation']",3.0,category_Software Development Engineering
+2024-04-19 14:01:11.300470,avik ,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_ReactJS']","['perk_5 days a week', 'perk_Letter of recommendation']",3.0,category_Software Development Engineering
+2024-04-19 14:01:11.411008,avik ,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_ReactJS']","['perk_5 days a week', 'perk_Letter of recommendation']",3.0,category_Software Development Engineering
+2024-04-19 14:01:11.513491,avik ,avikmallick14@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_ReactJS']","['perk_5 days a week', 'perk_Letter of recommendation']",3.0,category_Software Development Engineering
+2024-04-19 14:22:19.544059,AVIK MALLICK,avikmallick14@gmail.com,Find the best one,"['skill_AngularJS', 'skill_C Programming']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 14:26:56.250936,AVIK MALLICK,avikmallick14@gmail.com,location_Bangalore,"['skill_AngularJS', 'skill_C Programming']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 14:26:56.319457,AVIK MALLICK,avikmallick14@gmail.com,location_Bangalore,"['skill_AngularJS', 'skill_C Programming']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 14:26:56.688241,AVIK MALLICK,avikmallick14@gmail.com,location_Bangalore,"['skill_AngularJS', 'skill_C Programming']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 14:28:48.987143,AVIK MALLICK,avikmallick14@gmail.com,location_Delhi,"['skill_AngularJS', 'skill_C Programming']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 14:28:49.053151,AVIK MALLICK,avikmallick14@gmail.com,location_Delhi,"['skill_AngularJS', 'skill_C Programming']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-19 14:28:49.134169,AVIK MALLICK,avikmallick14@gmail.com,location_Delhi,"['skill_AngularJS', 'skill_C Programming']",['perk_5 days a week'],3.0,category_Software Development Engineering
+2024-04-24 19:47:50.212741,avik,avikmallick@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],1.5,category_Software Development
+2024-04-24 19:47:50.658667,avik,avikmallick@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],1.5,category_Software Development
+2024-04-24 19:47:50.750679,avik,avikmallick@gmail.com,location_Bangalore,"['skill_C Programming', 'skill_AngularJS']",['perk_5 days a week'],1.5,category_Software Development

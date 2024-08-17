@@ -1,0 +1,267 @@
+Others
+GUI Testing
+Robotic Process Automation (RPA)
+Jira
+Bengali Proficiency (Written)
+Voice-over artist
+Golang
+GIMP
+Ethical Hacking
+Bioinformatics
+Autodesk SketchBook
+CCNA
+SYSTEM ADMINISTRATOR
+Firebase Cloud Messaging
+Client Interaction
+KeyShot
+Ethereum
+Telugu Proficiency (Written)
+Audacity
+Dietetics/Nutrition
+Market Research
+Adobe Dreamweaver
+Neural Networks
+German Proficiency (Spoken)
+German Proficiency (Written)
+Computer Networks
+Display Advertising
+EAGLE
+Statistical Modeling
+Interpersonal Skills
+Rhino
+SQLite
+Google Cloud Computing
+Objective C
+Kannada
+Solidity
+Colour Theory for Designers
+Magento
+web3.js
+Voiceover
+SAP
+Marketing Programs
+PTC Creo
+J2EE
+R Programming
+DevOps
+Kannada Proficiency (Written)
+Cinema 4D
+Tailwind CSS
+Engineering Drawing
+Postman
+Pinterest Marketing
+OpenCV
+Quality Assurance/Quality Control (QA/QC)
+Unreal Engine
+LaTeX
+Web Application Security
+Microsoft Visual Studio
+Webflow
+Gujarati Proficiency (Spoken)
+Performance Management System
+Marathi Proficiency(Written)
+Rapid Prototyping
+Computer Vision
+Audio Making
+Microsoft Azure
+Shell Scripting
+NoSQL
+Image Processing
+Database Testing
+Tableau
+Bengali Proficiency (Spoken)
+Stock Trading
+Analog And Digital Circuits
+Malayalam Proficiency (Spoken)
+Xcode
+Unity Engine
+Ruby on Rails
+Angular 2.0
+Next.js
+Adobe Flash
+Cloud Computing
+Hibernate (Java)
+Natural Language Processing (NLP)
+ANSYS
+Storyboarding
+Economics
+Flask
+Acting Audition
+Acting technique
+Git
+Catia
+Statistics
+Articulate Storyline
+PostgreSQL
+Investing
+Digital Art
+Model View Controller(MVC)
+Sketching
+Marketing Campaigns
+Raspberry Pi
+Vue Js
+MATLAB
+PCB Soldering
+Telugu Proficiency (Spoken)
+Algorithms
+Tamil Proficiency (Spoken)
+Autodesk Fusion 360
+Swift
+Blockchain
+Product Lifecycle Management(PLM)
+Power BI
+Angular 7.0
+CAD
+Computer Networking
+Marketing Strategies
+MEAN/MERN Stack
+Spring MVC
+Redux
+Proofreading
+Unity 3D
+Autodesk Maya
+ASP.NET
+ARM Microcontroller
+XML
+Kannada Proficiency (Spoken)
+Robotics
+Deep Learning
+Salesforce
+C#.NET
+PCB Design
+JSON
+Marathi Proficiency(Spoken)
+YouTube Ads
+Manual Testing
+Biology
+GitHub
+TypeScript
+Sketch
+Software Testing
+AJAX
+MS SQL Server
+Data Structures
+HR Analytics
+Cloud Firestore
+Circuit Design
+Google SketchUp
+Autodesk Revit
+Anchoring
+Data Science
+Audio Editing
+Internet of Things (IoT)
+Amazon Web Services (AWS)
+Linux
+Google Workspace
+SolidWorks
+Django
+Express.js
+CodeIgniter
+Fashion Styling
+Amazon Web Server (AWS)
+Financial literacy
+Arduino
+AngularJS
+Wireframing
+Financial Modeling
+Chemistry
+Physics
+C#
+Facebook Ads
+Embedded Systems
+British English
+LARAVEL
+Fashion Designing
+Google Suite (G Suite)
+.NET
+Blender 3D
+Project Management
+Operations
+Machine Learning
+User Interface (UI) Development
+Kotlin
+Product Management
+Teaching
+Online Teaching
+Report Writing
+Subject Matter Expert (SME)
+Design Thinking
+Dart
+C Programming
+Digital Advertising
+American English
+Adobe XD
+Mathematics
+MongoDB
+Animation
+Hindi Proficiency (Written)
+React Native
+SQL
+iOS
+C++ Programming
+Event Management
+3ds Max
+Final Cut Pro
+LinkedIn Marketing
+Bootstrap
+Business Analysis
+Data Analytics
+Firebase
+jQuery
+Tally
+Photography
+Copywriting
+Flutter
+Android
+Recruitment
+Google AdWords
+AutoCAD
+Figma
+Client Relationship
+Business Research
+Research and Analytics
+Google Analytics
+REST API
+Java
+MySQL
+Node.js
+ReactJS
+Accounting
+Adobe Photoshop Lightroom CC
+Python
+PHP
+Adobe Creative Suite
+Adobe Indesign
+WordPress
+Sales
+Content Marketing
+UI & UX Design
+CorelDRAW
+Video Making
+CSS
+MS-PowerPoint
+Canva
+Hindi Proficiency (Spoken)
+Blogging
+JavaScript
+HTML
+Sales and Marketing
+Content Writing
+Adobe Premiere Pro
+Search Engine Marketing (SEM)
+Adobe After Effects
+MS-Word
+Facebook Marketing
+Video Editing
+Instagram Marketing
+Adobe Illustrator
+Email Marketing
+Search Engine Optimization (SEO)
+MS-Office
+Adobe Photoshop
+Creative Writing
+Digital Marketing
+MS-Excel
+Social Media Marketing
+English Proficiency (Spoken)
+English Proficiency (Written)

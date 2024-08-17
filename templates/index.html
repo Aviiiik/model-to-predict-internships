@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>InternPred</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="{{url_for('home')}}" class="logo"><strong>Let's Explore</strong><span></span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="{{url_for('home')}}">Home</a></li>
+							<li><a href="{{url_for('generalised')}}">Generalised Analysis</a></li>
+							<li><a href="{{url_for('customized')}}">Customized Analysis</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#one" class="button primary fit">Get Started</a></li>
+							<li><a href="#contact" class="button fit">Feedback</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>InternPred</h1>
+							</header>
+							<div class="content">
+								<p>Finding your optimal internship from Internshala</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Get Started</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="/static/images/pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="{{url_for('generalised')}}" class="link">Generalised Analysis</a></h3>
+										<p>Providing an overview of what various companies offers you for a suitable career</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="/static/images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="{{url_for('customized')}}" class="link">Customized Analysis</a></h3>
+										<p>Analysing and providing internships of your choice and preferences. Check out what you get out of your preferences</p>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>About InternPred</h2>
+									</header>
+									<p>Many internship seekers find it difficult to take up an internship relevant to their skills and technologies known. With over thousands of internships available in Internshala, it becomes a hectic task to sort out the best job opportunities and know where one stands.
+									InternPred aims to provide internship seekers with estimated stipend based on their skills, experience and other relevant data. It brings out user specialized key insights from all the internships available on the website publicly. It also aims at bringing out the generalized idea of current stipend offerings at industry level.</p>
+									<ul class="actions">
+										<li><a href="{{url_for('generalised')}}" class="button next">Get Started</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<p>For any feedback or queries feel free to reach us:<br></p>
+								<form onsubmit="sendResponse()">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="contact_name">
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="contact_email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="contact_message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="mailto:internpred@gmail.com">internpred@gmail.com</a>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://github.com/Aviiiik/machine-learning-model-to-find-best-company-for-internship.git" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; InternPred</li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/static/assets/js/jquery.min.js"></script>
+			<script src="/static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/static/assets/js/browser.min.js"></script>
+			<script src="/static/assets/js/breakpoints.min.js"></script>
+			<script src="/static/assets/js/util.js"></script>
+			<script src="/static/assets/js/main.js"></script>
+			<script>
+				function sendResponse(){
+					var name = encodeURI(document.getElementById('contact_name').value);
+					var email = encodeURI(document.getElementById("contact_email").value);
+					var msg = encodeURI(document.getElementById("contact_message").value);
+					var final_href = "mailto:internpred@gmail.com?subject=Feedback&body=Name:%20".concat(name).concat("%0AEmail:%20").concat(email).concat("%0AMessage:%0A").concat(msg);
+					console.log(final_href)
+					window.open(final_href,'_blank');
+				}
+			</script>
+
+	</body>
+</html>

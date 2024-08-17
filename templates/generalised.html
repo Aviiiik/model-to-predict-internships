@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Generalised Analysis | InternPred</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/static/assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="/static/assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt style2">
+			<a href="{{url_for('home')}}" class="logo"><strong>Let's Explore</strong></a>
+			<nav>
+				<a href="#menu">Menu</a>
+			</nav>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="{{url_for('home')}}">Home</a></li>
+				<li><a href="{{url_for('generalised')}}">Generalised Analysis</a></li>
+				<li><a href="{{url_for('customized')}}">Customized Analysis</a></li>
+			</ul>
+			<ul class="actions stacked">
+				<li><a href="{{url_for('home')}}#one" class="button primary fit">Get Started</a></li>
+				<li><a href="#contact" class="button fit">Feedback</a></li>
+			</ul>
+		</nav>
+
+		<!-- Banner -->
+		<section id="banner" class="style2">
+			<div class="inner">
+				<span class="image">
+					<img src="/static/images/pic07.jpg" alt="" />
+				</span>
+				<header class="major">
+					<h1>Generalised Analysis</h1>
+				</header>
+				<div class="content">
+					<p>Know everything about Internshala - The companies they offer, their stipends, job location,
+						skillset and many more...</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header class="major">
+						<h2>Overview</h2>
+					</header>
+					<p>Generalised analysis provides an overall analysis of data available throughout the Internshala.
+						This analysis gives you an idea of what the companies offer to you and where you should put your
+						shot to land an internship. This analysis helps you find out the current industry trend based on
+						different parameters present on Internshala!<br>This analysis is based on <b>8569</b> internship
+						offerings on Internshala. Note that the number of internships on Internshala changes from time
+						to time.<br>If you want to know more, visit our Customized Analysis page!</p>
+				</div>
+			</section>
+
+			<!-- Two -->
+			<section id="two" class="spotlights">
+				<section>
+					<a href="/static/category-barplot.png" target="_blank" class="image">
+						<img src="/static/category-barplot.png" alt="" data-position="center center" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Categories of internships offered</h3>
+							</header>
+							<p>This graph shows the share of internships on Internshala based on the category of an
+								internship. In general, content writing-related internships are widely available on
+								Internshala. To understand this graph, for example, out of 8569 internships analyzed,
+								178 internships are of UI/UX, which is approx 2% of the total internships available.</p>
+							<br>
+							<ul class="actions">
+								<li><a href="{{url_for('customized')}}" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<a href="/static/company-barplot.png" target="_blank" class="image">
+						<img src="/static/company-barplot.png" alt="" data-position="top center" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Number of internship postings by companies</h3>
+							</header>
+							<p>This graph shows the share of companies on Internshala based on the number of internship
+								postings they are offering. To understand this graph, for example, out of 8569
+								internships analyzed, 20 internship postings are offered by “The Crafty Talk”, which is
+								approx 0.2% of the total internship postings available.</p><br>
+							<ul class="actions">
+								<li><a href="{{url_for('customized')}}" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<a href="/static/company-offering-barplot.png" target="_blank" class="image">
+						<img src="/static/company-offering-barplot.png" alt="" data-position="25% 25%" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Number of openings offered by companies</h3>
+							</header>
+							<p>Each internship posting has many openings. This graph shows the number of openings by
+								companies on Internshala. To understand this graph, for example, out of <b>36607</b>
+								internship openings, 900 internship openings are by “WodoQota”, which is approx 2% of
+								the total internships available.</p><br>
+							<ul class="actions">
+								<li><a href="{{url_for('customized')}}" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<a href="/static/locations-barplot.png" target="_blank" class="image">
+						<img src="/static/locations-barplot.png" alt="" data-position="top center" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Internships based on Locations</h3>
+							</header>
+							<p>This graph shows the share of each location of internships on Internshala. To understand
+								this graph, for example, out of 8569 internships analyzed, 1088 internships are from
+								Mumbai, which is approx 12.1% of the total internships available. Work From Home is
+								still the preferred internship mode by most companies.</p><br>
+							<ul class="actions">
+								<li><a href="{{url_for('customized')}}" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<a href="/static/duration-barplot.png" target="_blank" class="image">
+						<img src="/static/duration-barplot.png" alt="" data-position="top center" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Internships based on durations</h3>
+							</header>
+							<p>Various companies provide internships for a different time duration ranging from one week
+								to 3 years. This graph shows the share of each duration of internships on Internshala.
+								To understand this graph, for example, out of 8569 internships analyzed, 3486
+								internships are for 3 months, which is approx 38,8% of the total internships available.
+								This shows that you are highly likely to find an internship for 3 months on Internshala.
+							</p><br>
+							<ul class="actions">
+								<li><a href="{{url_for('customized')}}" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<a href="/static/duration-stipend-kde.png" target="_blank" class="image">
+						<img src="/static/duration-stipend-kde.png" alt="" data-position="top center" />
+					</a>
+					<div class="content">
+						<div class="inner">
+							<header class="major">
+								<h3>Relation between Duration and Stipend</h3>
+							</header>
+							<p>Different duration of internships offers different stipends. To analyze this relation,
+								this Kernal Density graph is used. The darker the region, the more internships are
+								available in that region. To understand this graph, for example, most internships are
+								available for a 3-month duration which offers a stipend of around 5000. However, this
+								does not mean that you are most likely to get an internship of 5000 only. To know what
+								you can get, click on Learn More!</p><br>
+							<ul class="actions">
+								<li><a href="{{url_for('customized')}}" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Three -->
+			<section id="three">
+				<div class="inner">
+					<header class="major">
+						<h2>Few more analysis about Internshala...</h2>
+					</header>
+					<ul>
+						<li>2.98% of internships on Internshala are unpaid internships. These consist of postings by
+							NGOs, government organizations, etc. These can be useful to start with if you are not
+							landing on any paid internships.</li>
+						<li>15.82% of internships on Internshala do not require any specific skills.</li>
+						<li>Perks on Internshala are a major factor in deciding a stipend for an internship. As opposed
+							to what it may seem, companies not giving perks are actually low-paying internships.</li>
+						<li>2194 unique categories of internships are available on Internshala.</li>
+						<li>386 unique skills are available on Internshala for an applicant to find internships</li>
+						<li>393 unique locations are available on Internshala to apply for an internship</li>
+
+					</ul>
+				</div>
+			</section>
+			<section id="three">
+				<div class="inner">
+					<header class="major">
+						<h2>To know more...</h2>
+					</header>
+					<p>The generalized analysis provides only general information about the internships provided and
+						presents the data on the internships taken by the applicants at Internshala. To know more about
+						the internship opportunities of your interest along with customizations, click on get started!
+					</p>
+					<ul class="actions">
+						<li><a href="{{url_for('customized')}}" class="button next">Get Started</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Contact -->
+		<section id="contact">
+			<div class="inner">
+				<section>
+					<p>For any feedback or queries feel free to reach us:<br></p>
+					<form onsubmit="sendResponse()">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="contact_name">
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="contact_email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="contact_message" rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Clear" /></li>
+						</ul>
+					</form>
+				</section>
+				<section class="split">
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-envelope"></span>
+							<h3>Email</h3>
+							<a href="mailto:internpred@gmail.com">internpred@gmail.com</a>
+						</div>
+					</section>
+				</section>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://github.com/Aviiiik/machine-learning-model-to-find-best-company-for-internship.git" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; InternPred</li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="/static/assets/js/jquery.min.js"></script>
+	<script src="/static/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/static/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/static/assets/js/browser.min.js"></script>
+	<script src="/static/assets/js/breakpoints.min.js"></script>
+	<script src="/static/assets/js/util.js"></script>
+	<script src="/static/assets/js/main.js"></script>
+	<script>
+		function sendResponse() {
+			var name = encodeURI(document.getElementById('contact_name').value);
+			var email = encodeURI(document.getElementById("contact_email").value);
+			var msg = encodeURI(document.getElementById("contact_message").value);
+			var final_href = "mailto:internpred@gmail.com?subject=Feedback&body=Name:%20".concat(name).concat("%0AEmail:%20").concat(email).concat("%0AMessage:%0A").concat(msg);
+			console.log(final_href)
+			window.open(final_href, '_blank');
+		}
+	</script>
+
+</body>
+
+</html>
