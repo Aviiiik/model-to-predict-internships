@@ -2,7 +2,6 @@ import csv
 import os
 import time
 from datetime import datetime
-import matplotlib
 import pickle
 from flask import Flask, render_template, request
 import pandas as pd
